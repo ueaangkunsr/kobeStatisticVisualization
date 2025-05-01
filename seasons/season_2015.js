@@ -170,14 +170,6 @@ d3.select("body")
   .style("width", "400px")
   .style("height", "400px");
 
-d3.select("body")
-  .append("img")
-  .attr("src", "kobe_pic2.png")
-  .style("position", "absolute")
-  .style("left", "1125px") // adjust to place it to the right of SVG
-  .style("top", "150px")
-  .style("width", "450px")
-  .style("height", "370px");
 
   d3.select("body")
   .append("div")
