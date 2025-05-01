@@ -1,0 +1,17 @@
+This project was inspired by my love for Kobe Bryant and my interest in analyzing his basketball stats. 
+I designed it for basketball fans like myself—especially Kobe’s die-hard supporters who enjoy digging into performance data. 
+While building the visualization,I faced several challenges: sometimes clicking a season circle didn’t lead to the right page,
+and my initial idea to represent scoring zones using a detailed half-court graphic turned out to be too complex.
+I ultimately simplified it to a semi-circular scoring zone representing shot distance. 
+These compromises helped keep the design functional and clear for the intended audience, 
+while still capturing the essence of Kobe’s legacy.
+
+What is my website:
+a kobe scoring statistic
+First page has data circles showing the total points in each of his seasons. 
+When click on a circle, it will lead you to another page with a scoring zone visualization (by myself),
+it shows how many shots he scored and attempted in each zones (Freethrows, 2 points shot, 3 points shot).
+
+What is inside this folder.
+The main javascript that you should start with is 'main.js'. The seasons folder is for 
+the second page which have the scoring zone visualization in it.

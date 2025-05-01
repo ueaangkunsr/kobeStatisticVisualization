@@ -1,0 +1,83 @@
+/* Basic styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #552583;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.canva {
+  margin: 0 auto;
+  display: block;
+}
+
+#intro {
+  margin-top: 25px;
+  text-align: center;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+}
+
+h1 {
+  color: #FDB927;
+}
+
+p {
+  color: white;
+  line-height: 1.5;
+}
+
+p a {
+  color: #FDB927;
+  text-decoration: none;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
+/* SVG elements */
+circle {
+  fill: #FDB927;
+  stroke: #552583;
+  stroke-width: 2px;
+}
+
+circle:hover {
+  stroke: white;
+  stroke-width: 3px;
+  cursor: pointer;
+}
+
+.season-label {
+  fill: #552583;
+  font-weight: bold;
+  pointer-events: none;
+}
+
+/* Tooltip styling */
+div.tooltip {
+  position: absolute;
+  text-align: left;
+  width: 160px;
+  padding: 12px;
+  font: 14px Arial, sans-serif;
+  background: #411c65;
+  border: 2px solid #FDB927;
+  border-radius: 7px;
+  pointer-events: none;
+  color: white;
+}
+
+div.tooltip h3 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  color: #FDB927;
+}
+
+div.tooltip p {
+  margin: 4px 0;
+}
