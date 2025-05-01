@@ -172,7 +172,7 @@ d3.select("body")
   .append("img")
   .attr("src", "kobe_pic2.png")
   .style("position", "absolute")
-  .style("left", "1125px")
+  .style("left", "1725px")
   .style("top", "150px")
   .style("width", "450px")
   .style("height", "370px");
