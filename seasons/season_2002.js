@@ -206,5 +206,5 @@ d3.select("body")
       .style("box-shadow", "0 2px 5px rgba(0,0,0,0.2)");
   })
   .on("click", function() {
-    window.location.href = "../kobe_stats.html";
+    window.location.href = "../index.html";
   });
